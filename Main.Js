@@ -5,7 +5,6 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://app.qbo.intuit.com/*
-// @require      file://C:\Users\User\Documents\GitHub\QB_Delete\Main.Js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // ==/UserScript==
