@@ -21,14 +21,16 @@ function removeElem() {
     // Your code here...
     console.log("first step went ok")
 
-    var element = document.getElementsByClassName('leftnav-list');
+    var parrent = document.getElementsByClassName('leftnav-list');
     console.log("Got Element");
-    console.log(element);
+    console.log(parrent);
 
 
-    var child = element.childNodes[6].element;
-    console.log(child);
-//    child.removeChild();
+
+    var child = document.getElementsByClassName('primaryNavItem cash_flow ');
+    
+    console.log(child.nodeType);
+    
 
     console.log("removed");
 };
