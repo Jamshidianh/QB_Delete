@@ -30,3 +30,6 @@ function removeElem() {
 //document.addEventListener("DOMContentLoaded", removeElem());
 
 //setTimeout(removeElem(),5000);
+
+
+//GITHUB EDIT?
