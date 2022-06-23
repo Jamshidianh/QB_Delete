@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      0.11
+// @version      0.12
 // @description  try to take over the world!
 // @author       You
 // @match        https://app.qbo.intuit.com/*
@@ -10,6 +10,11 @@
 // @grant        none
 // ==/UserScript==
 
+
+
+//Github push and version controll works! YAYYYY
+
+// function tries to find the sidebar menu for quickbooks online and remove unnecessary sidebar items
 function removeElem() {
     'use strict';
 
@@ -32,4 +37,3 @@ function removeElem() {
 //setTimeout(removeElem(),5000);
 
 
-//GITHUB EDIT?
